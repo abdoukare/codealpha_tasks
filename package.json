@@ -1,0 +1,29 @@
+{
+  "name": "codealpha",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.7",
+    "express": "~4.16.1",
+    "mongoose": "^8.13.1",
+    "morgan": "~1.9.1",
+    "shortid": "^2.2.17",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@types/express": "^5.0.1",
+    "@types/shortid": "^2.2.0",
+    "@types/valid-url": "^1.0.7",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
